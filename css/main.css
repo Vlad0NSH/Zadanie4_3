@@ -1,0 +1,82 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+#header {
+  padding-left: 50px;
+  background-color: rgb(172, 34, 80);
+  height: 75px;
+  margin: 10px auto 10px auto;
+  line-height: 75px;
+}
+#menu {
+  padding-left: 50px;
+  background-color: rgb(130, 30, 63);
+  height: 50px;
+  margin: 10px auto 10px auto;
+  line-height: 50px;
+}
+.as1_2 {
+  height: 230px;
+  width: 385px;
+  float: left;
+}
+.as1 {
+  background-color: rgb(226, 60, 115);
+  height: 80px;
+  width: 385px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  line-height: 80px;
+}
+.as2 {
+  background-color: rgb(226, 60, 115);
+  height: 140px;
+  width: 385px;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  line-height: 80px;
+}
+.as3 {
+  background-color: rgb(226, 60, 115);
+  float: right;
+  height: 250px;
+  width: 100px;
+  writing-mode: vertical-rl;
+  text-align: center;
+  padding-left: 50px;
+  line-height: 100px;
+  margin: auto;
+}
+#main {
+  padding-left: 50px;
+  padding-top: 50px;
+  background-color: rgb(223, 55, 111);
+  height: 300px;
+  margin: 10px 110px 10px 395px;
+}
+.sec1,
+.sec2 {
+  padding-left: 50px;
+  padding-top: 20px;
+  background-color: rgb(255, 59, 124);
+  height: 90px;
+  max-width: 480px;
+  margin: 10px auto 10px 0;
+}
+#footer {
+  padding-left: 50px;
+  background-color: rgb(130, 30, 63);
+  height: 50px;
+  line-height: 50px;
+}
